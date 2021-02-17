@@ -4,10 +4,12 @@ This repository contains the code and documentation of a course on how to learn 
 # Table of Contents
 - [Requirements](#requirements)
 - [Basic Terminal Usage](#basic-terminal-usage)
+- [Tasks](#tasks)
 
 # Requirements
 - [Git.](https://git-scm.com/)
-- A code editor ([VS Code](https://code.visualstudio.com/) is recommended).  
+- A code editor ([VS Code](https://code.visualstudio.com/) is recommended).
+- A [GitHub](https://github.com) account.
 
 # Basic Terminal Usage
 Learning how to use your terminal will help you speeding up tasks as it gives you the ability of do **"whatever you want"** by inputting commands inside a single window.
@@ -29,6 +31,15 @@ To see all the files within your current path you can use either the `dir` or th
 <br>
 
 **Example:**  `dir` or `tree`
+<hr>
+
+### Print text, create and overwrite files
+The `echo` command is used to print text into the terminal, just run `echo` followed by the text you want to print. Also you can write text into a file using `echo` even though the file doesn't exists yet or in the case it does the file will be overwriten.
+
+**Command:**  `echo`
+<br>
+
+**Example:**  `echo hi there!`, `echo hi there > newFile.txt`
 <hr>
 
 ### Copy files
@@ -56,15 +67,6 @@ With `rename` you can change the name and extension of a file.
 <br>
 
 **Example:**  `rename "file.txt" "file.bat"`
-<hr>
-
-### Delete files
-To delete a file from the file system you can use the `del` command.
-
-**Command:**  `del`
-<br>
-
-**Example:**  `del "file.txt"`
 <hr>
 
 ### Delete files
@@ -128,3 +130,55 @@ Whenever you want to get information about a certain command you can use the `he
 <br>
 
 **Example:**  `help rd`, `help mkdir`, `help`
+
+## ⚠⚠⚠ Task ⚠⚠⚠
+By the end of this section you must complete the following tasks:
+- [basic terminal usage](#1.basic-terminal-usage) task.
+
+# Tasks
+In order or getting a better understanding of the topics seen is advisable to carry out the following tasks:
+
+## 1.Basic terminal usage
+The goal of this task is to get used to terminal commands.
+
+### 📋 Instructions 📋
+1. Using only the terminal, create the following file structure:
+```
+│   fileX.txt
+│   fileY.txt
+│   fileZ.txt
+│
+├───dir1
+│       fileA.txt
+│
+├───dir2
+│       fileB.txt
+│
+└───dir3
+        fileC.txt
+```
+2. Move `fileY.txt` into `.\dir2\dir2.1` and `fileZ.txt` into `.\dir3` leading to the following file structure:
+```
+│   fileX.txt
+│
+├───dir1
+│       fileA.txt
+│
+├───dir2
+│   │   fileB.txt
+│   │
+│   └───dir2.1
+│           fileY.txt
+│
+└───dir3
+        fileC.txt
+        fileZ.txt
+```
+3. Delete `dir2` and `dir3` including the files inside them and create a new file at the root with your local ip as name as following:
+```
+│   192.168.1.182.txt
+│   fileX.txt
+│
+└───dir1
+        fileA.txt
+```
