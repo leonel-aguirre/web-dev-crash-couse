@@ -133,7 +133,7 @@ Whenever you want to get information about a certain command you can use the `he
 
 ## ⚠⚠⚠ Task ⚠⚠⚠
 By the end of this section you must complete the following tasks:
-- [basic terminal usage](#1.basic-terminal-usage) task.
+- [basic terminal usage](#1basic-terminal-usage) task.
 
 # Tasks
 In order or getting a better understanding of the topics seen is advisable to carry out the following tasks:
