@@ -106,15 +106,6 @@ There will be cases where you need to know your local ip address, so, the `ipcon
 <hr>
 
 ### Clear the terminal
-As commands are executed your teminal will carry a lot of data. To clear the terminal you can use the `cls` command.
-
-**Command:**  `cls`
-<br>
-
-**Example:**  `cls`
-<hr>
-
-### Clear the terminal
 As commands are executed your terminal will carry a lot of data. To clear the terminal you can use the `cls` command.
 
 **Command:**  `cls`
